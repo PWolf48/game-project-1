@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dckvo5h7a37xq"
-path="res://.godot/imported/Ground Down Block.png-31acefff59884319a8408dc458d1c791.ctex"
+uid="uid://c3wui8t1d426m"
+path="res://.godot/imported/Chara Jump1.png-23f9403179f680d2d5d5b46c57a568bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Ground Down Block.png"
-dest_files=["res://.godot/imported/Ground Down Block.png-31acefff59884319a8408dc458d1c791.ctex"]
+source_file="res://assets/player/Chara Jump1.png"
+dest_files=["res://.godot/imported/Chara Jump1.png-23f9403179f680d2d5d5b46c57a568bb.ctex"]
 
 [params]
 

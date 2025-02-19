@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvn1lun3fybt2"
-path="res://.godot/imported/Chara Idle2.png-fdca2e8156bc0a9752abd4c3c315414e.ctex"
+uid="uid://ctsb5q7jh7su8"
+path="res://.godot/imported/ground test.png-ce6f1e3f5334550049eef65def24dfa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Chara Idle2.png"
-dest_files=["res://.godot/imported/Chara Idle2.png-fdca2e8156bc0a9752abd4c3c315414e.ctex"]
+source_file="res://assets/ground test.png"
+dest_files=["res://.godot/imported/ground test.png-ce6f1e3f5334550049eef65def24dfa5.ctex"]
 
 [params]
 

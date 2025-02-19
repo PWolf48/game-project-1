@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5u02rr80sim3"
-path="res://.godot/imported/Chara Walk1.png-999b4b92af772e7f77d9c88dbc784ff4.ctex"
+uid="uid://g42ualks8js0"
+path="res://.godot/imported/Enemy Punch4.png-78b007faeb0ad586cbdf1d9f8de85407.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Chara Walk1.png"
-dest_files=["res://.godot/imported/Chara Walk1.png-999b4b92af772e7f77d9c88dbc784ff4.ctex"]
+source_file="res://assets/enemy/Enemy Punch4.png"
+dest_files=["res://.godot/imported/Enemy Punch4.png-78b007faeb0ad586cbdf1d9f8de85407.ctex"]
 
 [params]
 

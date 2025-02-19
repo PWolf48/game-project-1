@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sblbro88p0ce"
-path="res://.godot/imported/Chara Walk3.png-882c9e558cf65d785553d8807f8bfe53.ctex"
+uid="uid://dvn1lun3fybt2"
+path="res://.godot/imported/Chara Idle2.png-bff7df5644b48931dc52dae00acd1970.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Chara Walk3.png"
-dest_files=["res://.godot/imported/Chara Walk3.png-882c9e558cf65d785553d8807f8bfe53.ctex"]
+source_file="res://assets/player/Chara Idle2.png"
+dest_files=["res://.godot/imported/Chara Idle2.png-bff7df5644b48931dc52dae00acd1970.ctex"]
 
 [params]
 

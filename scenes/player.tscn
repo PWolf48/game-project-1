@@ -1,58 +1,59 @@
-[gd_scene load_steps=20 format=3 uid="uid://dky12ueidb7ft"]
+[gd_scene load_steps=21 format=3 uid="uid://dky12ueidb7ft"]
 
-[ext_resource type="Texture2D" uid="uid://eigvmnljagw" path="res://assets/Chara Idle1.png" id="1_24p46"]
+[ext_resource type="Texture2D" uid="uid://eigvmnljagw" path="res://assets/player/Chara Idle1.png" id="1_24p46"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ue67a"]
-[ext_resource type="Texture2D" uid="uid://dvn1lun3fybt2" path="res://assets/Chara Idle2.png" id="2_2uegi"]
-[ext_resource type="Texture2D" uid="uid://c3wui8t1d426m" path="res://assets/Chara Jump1.png" id="3_0vgw2"]
-[ext_resource type="Texture2D" uid="uid://c7osjd2s86rdd" path="res://assets/Chara Jump2.png" id="4_h7fdb"]
-[ext_resource type="Texture2D" uid="uid://b5u02rr80sim3" path="res://assets/Chara Walk1.png" id="5_nb85o"]
-[ext_resource type="Texture2D" uid="uid://bdvtp5av2j8oq" path="res://assets/Chara Walk2.png" id="6_0cdxv"]
-[ext_resource type="Texture2D" uid="uid://sblbro88p0ce" path="res://assets/Chara Walk3.png" id="7_55u0d"]
-[ext_resource type="Texture2D" uid="uid://dyynm71om5jdl" path="res://assets/Chara Walk4.png" id="8_8e42e"]
+[ext_resource type="Texture2D" uid="uid://dvn1lun3fybt2" path="res://assets/player/Chara Idle2.png" id="2_2uegi"]
+[ext_resource type="Texture2D" uid="uid://c3wui8t1d426m" path="res://assets/player/Chara Jump1.png" id="3_0vgw2"]
+[ext_resource type="Texture2D" uid="uid://c7osjd2s86rdd" path="res://assets/player/Chara Jump2.png" id="4_h7fdb"]
+[ext_resource type="Texture2D" uid="uid://b5u02rr80sim3" path="res://assets/player/Chara Walk1.png" id="5_nb85o"]
+[ext_resource type="Texture2D" uid="uid://bdvtp5av2j8oq" path="res://assets/player/Chara Walk2.png" id="6_0cdxv"]
+[ext_resource type="Texture2D" uid="uid://sblbro88p0ce" path="res://assets/player/Chara Walk3.png" id="7_55u0d"]
+[ext_resource type="Texture2D" uid="uid://dyynm71om5jdl" path="res://assets/player/Chara Walk4.png" id="8_8e42e"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_hh034"]
-size = Vector2(15, 20)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v4xin"]
+radius = 6.0
+height = 24.0
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_k3r4c"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rxpk"]
 atlas = ExtResource("1_24p46")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 10, 19, 30)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rdyar"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdngu"]
 atlas = ExtResource("2_2uegi")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_o6sm5"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_jhu7l"]
 atlas = ExtResource("3_0vgw2")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_au105"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw8yt"]
 atlas = ExtResource("4_h7fdb")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_nvmvn"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_xawkd"]
 atlas = ExtResource("5_nb85o")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_a22ua"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_np2gu"]
 atlas = ExtResource("6_0cdxv")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_d873o"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_cu583"]
 atlas = ExtResource("7_55u0d")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_yqwbo"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_tihdf"]
 atlas = ExtResource("8_8e42e")
-region = Rect2(12, 2, 40, 40)
+region = Rect2(23, 8, 19, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_x5yky"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_k3r4c")
+"texture": SubResource("AtlasTexture_5rxpk")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_rdyar")
+"texture": SubResource("AtlasTexture_jdngu")
 }],
 "loop": true,
 "name": &"idle",
@@ -60,10 +61,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_o6sm5")
+"texture": SubResource("AtlasTexture_jhu7l")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_au105")
+"texture": SubResource("AtlasTexture_aw8yt")
 }],
 "loop": true,
 "name": &"jump",
@@ -71,31 +72,45 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_nvmvn")
+"texture": SubResource("AtlasTexture_xawkd")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_a22ua")
+"texture": SubResource("AtlasTexture_np2gu")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_d873o")
+"texture": SubResource("AtlasTexture_cu583")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_yqwbo")
+"texture": SubResource("AtlasTexture_tihdf")
 }],
 "loop": true,
 "name": &"walk",
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_briaw"]
+size = Vector2(16, 27)
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_ue67a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, 4)
-shape = SubResource("RectangleShape2D_hh034")
+z_index = 1
+position = Vector2(0, -3)
+shape = SubResource("CapsuleShape2D_v4xin")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -5)
 sprite_frames = SubResource("SpriteFrames_x5yky")
-animation = &"walk"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.170754
+
+[node name="hitbox" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_briaw")
+debug_color = Color(0.801725, 0.334299, 0.309591, 0.42)
+
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]

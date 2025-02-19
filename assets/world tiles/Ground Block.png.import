@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyynm71om5jdl"
-path="res://.godot/imported/Chara Walk4.png-18de4bef6da8aef66df61c13967add46.ctex"
+uid="uid://cgri6km4tfb44"
+path="res://.godot/imported/Ground Block.png-6aa9347ecc2f1f4443c57283c51f0f12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Chara Walk4.png"
-dest_files=["res://.godot/imported/Chara Walk4.png-18de4bef6da8aef66df61c13967add46.ctex"]
+source_file="res://assets/world tiles/Ground Block.png"
+dest_files=["res://.godot/imported/Ground Block.png-6aa9347ecc2f1f4443c57283c51f0f12.ctex"]
 
 [params]
 

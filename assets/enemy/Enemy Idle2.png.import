@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7osjd2s86rdd"
-path="res://.godot/imported/Chara Jump2.png-62fb83215736c00d6a1884632c4316e5.ctex"
+uid="uid://dlyxvm7vmvu7i"
+path="res://.godot/imported/Enemy Idle2.png-7512b63cbc94abcea150ef9942934723.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Chara Jump2.png"
-dest_files=["res://.godot/imported/Chara Jump2.png-62fb83215736c00d6a1884632c4316e5.ctex"]
+source_file="res://assets/enemy/Enemy Idle2.png"
+dest_files=["res://.godot/imported/Enemy Idle2.png-7512b63cbc94abcea150ef9942934723.ctex"]
 
 [params]
 

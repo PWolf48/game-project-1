@@ -3,7 +3,11 @@ extends CharacterBody2D
 
 const SPEED = 70.0
 const JUMP_VELOCITY = -270.0
+var HP = 100
+var ATTACK_POWER = 10
+
 @onready var player: AnimatedSprite2D = $AnimatedSprite2D
+@onready var enemy: CharacterBody2D = $"../enemy"
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -33,3 +37,10 @@ func _physics_process(delta: float) -> void:
 		player.play("idle")
 
 	move_and_slide()
+	
+
+func _on_hitbox_body_entered(body: Node2D) -> void:
+	if body.is_in_group("enemy"):
+		if HP > 0:
+			HP = HP - enemy.ATTACK_POWER
+			print("player's hp: ", HP)
